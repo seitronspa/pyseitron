@@ -1,0 +1,21 @@
+[project]
+name = "pyseitron"
+version = "0.0.1"
+authors = [
+  { name="Stefano Vardanega", email="stefano.vardanega@seitron.it" },
+]
+description = "Seitron library for IoT device"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/seitronspa/pyseitron"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
